@@ -1,0 +1,10 @@
+{
+    "options": [
+        { "value": "menu", "text": "Menú" },
+        { "value": "platillos", "text": "Platillos de temporada" },
+        { "value": "cafe", "text": "El Café puertas adentro" },
+        { "value": "envios", "text": "Preguntas frecuentes sobre envíos" },
+        { "value": "nosotros", "text": "Sobre nosotros" },
+        { "value": "promocion", "text": "Mi labor de promoción" }
+    ]
+}

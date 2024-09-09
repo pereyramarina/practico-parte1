@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Cocina Vegetal - Formulario</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Sección del logo y el texto descriptivo -->
+        <div class="logo-section">
+            <h1>La Cocina Vegetal</h1>
+            <p>Comida deliciosa hecha con ingredientes a base de plantas y mucho amor.</p>
+        </div>
+
+        <!-- Sección del formulario dinámico -->
+        <div class="form-section">
+            <form id="dynamicForm">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="selectOption">Selecciona una opción:</label>
+                    <select id="selectOption" name="selectOption" required>
+                        <!-- Las opciones se agregarán dinámicamente desde JavaScript -->
+                    </select>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="social-section">
+        <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="img/gorjeo.png" alt="Twitter"></a>
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
